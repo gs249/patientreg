@@ -19,6 +19,12 @@ public class MainController {
 		
 		return "admin/Register";
 	}
+	@RequestMapping("/dashboard")
+	public String deshboard()
+	{
+		
+		return "admin/dashboard";
+	}
 	
 
 }
