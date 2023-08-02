@@ -32,10 +32,11 @@
 
     <!-- COLOR SKIN CSS -->
     <link id="theme" rel="stylesheet" type="text/css" media="all" href="<%=request.getContextPath()%>/resources/colors/color1.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="<%=request.getContextPath()%>/resources/js/controller/config.js"></script>
 </head>
 
-<body class="app sidebar-mini ltr light-mode">
+<body class="app sidebar-mini ltr light-mode" ng-app="myapp">
 
     <!-- GLOBAL-LOADER -->
     <div id="global-loader">
@@ -255,15 +256,20 @@
                             <h3>Main</h3>
                         </li>
                         <li class="slide">
-                            <a class="side-menu__item has-link" data-bs-toggle="slide" href="index.html"><i
+                            <a class="side-menu__item has-link" data-bs-toggle="slide" href="dashboard"><i
                                     class="side-menu__icon fe fe-home"></i><span
                                     class="side-menu__label">Dashboard</span></a>
                         </li>
                         <li class="slide">
-                        <a class="side-menu__item has-link" data-bs-toggle="slide" href="index.html"><i
+                        <a class="side-menu__item has-link" data-bs-toggle="slide" href="category"><i
                                 class="side-menu__icon fe fe-zap"></i><span
                                 class="side-menu__label">Category</span></a>
                     </li>
+                    <li class="slide">
+                    <a class="side-menu__item has-link" data-bs-toggle="slide " href="patient"><i
+                            class="side-menu__icon fe fe-zap "></i><span
+                            class="side-menu__label ">patient</span></a>
+                </li>
                       
                       
                        

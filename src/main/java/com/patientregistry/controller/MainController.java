@@ -25,6 +25,30 @@ public class MainController {
 		
 		return "admin/dashboard";
 	}
+	@RequestMapping("/category")
+	public String catrgory()
+	{
+		
+		return "admin/category";
+	}
+	@RequestMapping("/addcategory")
+	public String addcatrgory()
+	{
+		
+		return "admin/add category";
+	}
 	
+	@RequestMapping("/patient")
+	public String patient()
+	{
+		
+		return "admin/patient";
+	}
+	@RequestMapping("/addpatient")
+	public String addpatient()
+	{
+		
+		return "admin/addpatient";
+	}
 
 }
